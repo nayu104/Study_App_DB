@@ -3,7 +3,7 @@ from DB import conn_db
 import json 
 from flask_cors import CORS
 import os
-from flask import Flask, request, jsonify
+from flask import Flask, request
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
